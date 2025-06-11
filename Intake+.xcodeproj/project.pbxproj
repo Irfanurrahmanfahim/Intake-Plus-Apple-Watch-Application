@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30482D112D59FFC400E27311 /* Main Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD469D2D5684B300F1DAFE /* Main Model.swift */; };
+		30482D132D5A122600E27311 /* caloriesbymealview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30482D122D5A122600E27311 /* caloriesbymealview.swift */; };
+		306E62B42D513B9F0069B99E /* Intake+ Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 306E62B32D513B9F0069B99E /* Intake+ Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		306E62B92D513B9F0069B99E /* Intake_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306E62B82D513B9F0069B99E /* Intake_App.swift */; };
+		306E62BB2D513B9F0069B99E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306E62BA2D513B9F0069B99E /* ContentView.swift */; };
+		306E62BD2D513BA10069B99E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306E62BC2D513BA10069B99E /* Assets.xcassets */; };
+		306E62C02D513BA10069B99E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306E62BF2D513BA10069B99E /* Preview Assets.xcassets */; };
+		306E62CA2D513BA10069B99E /* Intake__Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306E62C92D513BA10069B99E /* Intake__Watch_AppTests.swift */; };
+		306E62D42D513BA10069B99E /* Intake__Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306E62D32D513BA10069B99E /* Intake__Watch_AppUITests.swift */; };
+		306E62D62D513BA10069B99E /* Intake__Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306E62D52D513BA10069B99E /* Intake__Watch_AppUITestsLaunchTests.swift */; };
+		307DD5452D56933B0035D826 /* settarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307DD5442D56933B0035D826 /* settarget.swift */; };
+		307DD5472D56943E0035D826 /* Circularcomparisonview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307DD5462D56943E0035D826 /* Circularcomparisonview.swift */; };
+		30A37C152D59FF590038AAEE /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD469B2D56839D00F1DAFE /* Calculations.swift */; };
+		30BD469C2D56839D00F1DAFE /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD469B2D56839D00F1DAFE /* Calculations.swift */; };
+		30BD469E2D5684B300F1DAFE /* Main Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD469D2D5684B300F1DAFE /* Main Model.swift */; };
+		30BD46A02D568AA100F1DAFE /* addwaterview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD469F2D568AA100F1DAFE /* addwaterview.swift */; };
+		30BD46A22D568B3200F1DAFE /* addcaloriesview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD46A12D568B3200F1DAFE /* addcaloriesview.swift */; };
+		30BD46A42D568CC200F1DAFE /* mainmenuview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BD46A32D568CC200F1DAFE /* mainmenuview.swift */; };
+		30D1E54C2D57B2910011B737 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D1E54B2D57B2910011B737 /* WidgetKit.framework */; };
+		30D1E54E2D57B2910011B737 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D1E54D2D57B2910011B737 /* SwiftUI.framework */; };
+		30D1E5512D57B2910011B737 /* Intake__Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D1E5502D57B2910011B737 /* Intake__Widget.swift */; };
+		30D1E5552D57B2920011B737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D1E5542D57B2920011B737 /* Assets.xcassets */; };
+		30D1E5592D57B2920011B737 /* Intake+ WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 30D1E5492D57B2910011B737 /* Intake+ WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30D2DF522D5A7F33008BA50A /* previousdayintakeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2DF512D5A7F33008BA50A /* previousdayintakeview.swift */; };
+		30DDFA632D57902500C37C59 /* Mealselectionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDFA622D57902500C37C59 /* Mealselectionview.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306E62B52D513B9F0069B99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306E62A72D513B9F0069B99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306E62B22D513B9F0069B99E;
+			remoteInfo = "Intake+ Watch App";
+		};
+		306E62C62D513BA10069B99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306E62A72D513B9F0069B99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306E62B22D513B9F0069B99E;
+			remoteInfo = "Intake+ Watch App";
+		};
+		306E62D02D513BA10069B99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306E62A72D513B9F0069B99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306E62B22D513B9F0069B99E;
+			remoteInfo = "Intake+ Watch App";
+		};
+		30D1E5572D57B2920011B737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306E62A72D513B9F0069B99E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30D1E5482D57B2910011B737;
+			remoteInfo = "Intake+ WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		306E62DC2D513BA10069B99E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				306E62B42D513B9F0069B99E /* Intake+ Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D1E55A2D57B2920011B737 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				30D1E5592D57B2920011B737 /* Intake+ WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		30156D892D58D6F600BF350B /* Intake+ Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Intake+ Watch App.entitlements"; sourceTree = "<group>"; };
+		30156D8A2D58D7A900BF350B /* Intake+ WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Intake+ WidgetExtension.entitlements"; sourceTree = "<group>"; };
+		30482D122D5A122600E27311 /* caloriesbymealview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caloriesbymealview.swift; sourceTree = "<group>"; };
+		306E62AD2D513B9F0069B99E /* Intake+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intake+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306E62B32D513B9F0069B99E /* Intake+ Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intake+ Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306E62B82D513B9F0069B99E /* Intake_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intake_App.swift; sourceTree = "<group>"; };
+		306E62BA2D513B9F0069B99E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		306E62BC2D513BA10069B99E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306E62BF2D513BA10069B99E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		306E62C52D513BA10069B99E /* Intake+ Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intake+ Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306E62C92D513BA10069B99E /* Intake__Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intake__Watch_AppTests.swift; sourceTree = "<group>"; };
+		306E62CF2D513BA10069B99E /* Intake+ Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intake+ Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		306E62D32D513BA10069B99E /* Intake__Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intake__Watch_AppUITests.swift; sourceTree = "<group>"; };
+		306E62D52D513BA10069B99E /* Intake__Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intake__Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		307DD5442D56933B0035D826 /* settarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settarget.swift; sourceTree = "<group>"; };
+		307DD5462D56943E0035D826 /* Circularcomparisonview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circularcomparisonview.swift; sourceTree = "<group>"; };
+		30BD469B2D56839D00F1DAFE /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		30BD469D2D5684B300F1DAFE /* Main Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main Model.swift"; sourceTree = "<group>"; };
+		30BD469F2D568AA100F1DAFE /* addwaterview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addwaterview.swift; sourceTree = "<group>"; };
+		30BD46A12D568B3200F1DAFE /* addcaloriesview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addcaloriesview.swift; sourceTree = "<group>"; };
+		30BD46A32D568CC200F1DAFE /* mainmenuview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainmenuview.swift; sourceTree = "<group>"; };
+		30D1E5492D57B2910011B737 /* Intake+ WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Intake+ WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D1E54B2D57B2910011B737 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		30D1E54D2D57B2910011B737 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		30D1E5502D57B2910011B737 /* Intake__Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intake__Widget.swift; sourceTree = "<group>"; };
+		30D1E5542D57B2920011B737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D1E5562D57B2920011B737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D2DF512D5A7F33008BA50A /* previousdayintakeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = previousdayintakeview.swift; sourceTree = "<group>"; };
+		30DDFA622D57902500C37C59 /* Mealselectionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mealselectionview.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306E62B02D513B9F0069B99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E62C22D513BA10069B99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E62CC2D513BA10069B99E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D1E5462D57B2910011B737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D1E54E2D57B2910011B737 /* SwiftUI.framework in Frameworks */,
+				30D1E54C2D57B2910011B737 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306E62A62D513B9F0069B99E = {
+			isa = PBXGroup;
+			children = (
+				30156D8A2D58D7A900BF350B /* Intake+ WidgetExtension.entitlements */,
+				306E62B72D513B9F0069B99E /* Intake+ Watch App */,
+				306E62C82D513BA10069B99E /* Intake+ Watch AppTests */,
+				306E62D22D513BA10069B99E /* Intake+ Watch AppUITests */,
+				30D1E54F2D57B2910011B737 /* Intake+ Widget */,
+				30D1E54A2D57B2910011B737 /* Frameworks */,
+				306E62AE2D513B9F0069B99E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306E62AE2D513B9F0069B99E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306E62AD2D513B9F0069B99E /* Intake+.app */,
+				306E62B32D513B9F0069B99E /* Intake+ Watch App.app */,
+				306E62C52D513BA10069B99E /* Intake+ Watch AppTests.xctest */,
+				306E62CF2D513BA10069B99E /* Intake+ Watch AppUITests.xctest */,
+				30D1E5492D57B2910011B737 /* Intake+ WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306E62B72D513B9F0069B99E /* Intake+ Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				30156D892D58D6F600BF350B /* Intake+ Watch App.entitlements */,
+				306E62E72D514A2D0069B99E /* Model */,
+				306E62E62D5149EB0069B99E /* View */,
+				306E62B82D513B9F0069B99E /* Intake_App.swift */,
+				306E62BC2D513BA10069B99E /* Assets.xcassets */,
+				306E62BE2D513BA10069B99E /* Preview Content */,
+			);
+			path = "Intake+ Watch App";
+			sourceTree = "<group>";
+		};
+		306E62BE2D513BA10069B99E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				306E62BF2D513BA10069B99E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		306E62C82D513BA10069B99E /* Intake+ Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				306E62C92D513BA10069B99E /* Intake__Watch_AppTests.swift */,
+			);
+			path = "Intake+ Watch AppTests";
+			sourceTree = "<group>";
+		};
+		306E62D22D513BA10069B99E /* Intake+ Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				306E62D32D513BA10069B99E /* Intake__Watch_AppUITests.swift */,
+				306E62D52D513BA10069B99E /* Intake__Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Intake+ Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		306E62E62D5149EB0069B99E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30BD469F2D568AA100F1DAFE /* addwaterview.swift */,
+				306E62BA2D513B9F0069B99E /* ContentView.swift */,
+				30BD46A12D568B3200F1DAFE /* addcaloriesview.swift */,
+				30BD46A32D568CC200F1DAFE /* mainmenuview.swift */,
+				307DD5442D56933B0035D826 /* settarget.swift */,
+				307DD5462D56943E0035D826 /* Circularcomparisonview.swift */,
+				30DDFA622D57902500C37C59 /* Mealselectionview.swift */,
+				30482D122D5A122600E27311 /* caloriesbymealview.swift */,
+				30D2DF512D5A7F33008BA50A /* previousdayintakeview.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		306E62E72D514A2D0069B99E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30BD469B2D56839D00F1DAFE /* Calculations.swift */,
+				30BD469D2D5684B300F1DAFE /* Main Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30D1E54A2D57B2910011B737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30D1E54B2D57B2910011B737 /* WidgetKit.framework */,
+				30D1E54D2D57B2910011B737 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30D1E54F2D57B2910011B737 /* Intake+ Widget */ = {
+			isa = PBXGroup;
+			children = (
+				30D1E5502D57B2910011B737 /* Intake__Widget.swift */,
+				30D1E5542D57B2920011B737 /* Assets.xcassets */,
+				30D1E5562D57B2920011B737 /* Info.plist */,
+			);
+			path = "Intake+ Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306E62AC2D513B9F0069B99E /* Intake+ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306E62DD2D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+" */;
+			buildPhases = (
+				306E62AB2D513B9F0069B99E /* Resources */,
+				306E62DC2D513BA10069B99E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306E62B62D513B9F0069B99E /* PBXTargetDependency */,
+			);
+			name = "Intake+";
+			productName = "Intake+";
+			productReference = 306E62AD2D513B9F0069B99E /* Intake+.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		306E62B22D513B9F0069B99E /* Intake+ Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306E62D92D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+ Watch App" */;
+			buildPhases = (
+				306E62AF2D513B9F0069B99E /* Sources */,
+				306E62B02D513B9F0069B99E /* Frameworks */,
+				306E62B12D513B9F0069B99E /* Resources */,
+				30D1E55A2D57B2920011B737 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30D1E5582D57B2920011B737 /* PBXTargetDependency */,
+			);
+			name = "Intake+ Watch App";
+			productName = "Intake+ Watch App";
+			productReference = 306E62B32D513B9F0069B99E /* Intake+ Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306E62C42D513BA10069B99E /* Intake+ Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306E62E02D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+ Watch AppTests" */;
+			buildPhases = (
+				306E62C12D513BA10069B99E /* Sources */,
+				306E62C22D513BA10069B99E /* Frameworks */,
+				306E62C32D513BA10069B99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306E62C72D513BA10069B99E /* PBXTargetDependency */,
+			);
+			name = "Intake+ Watch AppTests";
+			productName = "Intake+ Watch AppTests";
+			productReference = 306E62C52D513BA10069B99E /* Intake+ Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		306E62CE2D513BA10069B99E /* Intake+ Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306E62E32D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+ Watch AppUITests" */;
+			buildPhases = (
+				306E62CB2D513BA10069B99E /* Sources */,
+				306E62CC2D513BA10069B99E /* Frameworks */,
+				306E62CD2D513BA10069B99E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306E62D12D513BA10069B99E /* PBXTargetDependency */,
+			);
+			name = "Intake+ Watch AppUITests";
+			productName = "Intake+ Watch AppUITests";
+			productReference = 306E62CF2D513BA10069B99E /* Intake+ Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		30D1E5482D57B2910011B737 /* Intake+ WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D1E55D2D57B2920011B737 /* Build configuration list for PBXNativeTarget "Intake+ WidgetExtension" */;
+			buildPhases = (
+				30D1E5452D57B2910011B737 /* Sources */,
+				30D1E5462D57B2910011B737 /* Frameworks */,
+				30D1E5472D57B2910011B737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intake+ WidgetExtension";
+			productName = "Intake+ WidgetExtension";
+			productReference = 30D1E5492D57B2910011B737 /* Intake+ WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306E62A72D513B9F0069B99E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					306E62AC2D513B9F0069B99E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					306E62B22D513B9F0069B99E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					306E62C42D513BA10069B99E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 306E62B22D513B9F0069B99E;
+					};
+					306E62CE2D513BA10069B99E = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 306E62B22D513B9F0069B99E;
+					};
+					30D1E5482D57B2910011B737 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 306E62AA2D513B9F0069B99E /* Build configuration list for PBXProject "Intake+" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306E62A62D513B9F0069B99E;
+			productRefGroup = 306E62AE2D513B9F0069B99E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306E62AC2D513B9F0069B99E /* Intake+ */,
+				306E62B22D513B9F0069B99E /* Intake+ Watch App */,
+				306E62C42D513BA10069B99E /* Intake+ Watch AppTests */,
+				306E62CE2D513BA10069B99E /* Intake+ Watch AppUITests */,
+				30D1E5482D57B2910011B737 /* Intake+ WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306E62AB2D513B9F0069B99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E62B12D513B9F0069B99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306E62C02D513BA10069B99E /* Preview Assets.xcassets in Resources */,
+				306E62BD2D513BA10069B99E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E62C32D513BA10069B99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E62CD2D513BA10069B99E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D1E5472D57B2910011B737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D1E5552D57B2920011B737 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306E62AF2D513B9F0069B99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BD46A22D568B3200F1DAFE /* addcaloriesview.swift in Sources */,
+				306E62BB2D513B9F0069B99E /* ContentView.swift in Sources */,
+				30BD46A02D568AA100F1DAFE /* addwaterview.swift in Sources */,
+				30BD469E2D5684B300F1DAFE /* Main Model.swift in Sources */,
+				30D2DF522D5A7F33008BA50A /* previousdayintakeview.swift in Sources */,
+				30DDFA632D57902500C37C59 /* Mealselectionview.swift in Sources */,
+				306E62B92D513B9F0069B99E /* Intake_App.swift in Sources */,
+				307DD5452D56933B0035D826 /* settarget.swift in Sources */,
+				30BD46A42D568CC200F1DAFE /* mainmenuview.swift in Sources */,
+				30482D132D5A122600E27311 /* caloriesbymealview.swift in Sources */,
+				307DD5472D56943E0035D826 /* Circularcomparisonview.swift in Sources */,
+				30BD469C2D56839D00F1DAFE /* Calculations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E62C12D513BA10069B99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306E62CA2D513BA10069B99E /* Intake__Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306E62CB2D513BA10069B99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306E62D62D513BA10069B99E /* Intake__Watch_AppUITestsLaunchTests.swift in Sources */,
+				306E62D42D513BA10069B99E /* Intake__Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30D1E5452D57B2910011B737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D1E5512D57B2910011B737 /* Intake__Widget.swift in Sources */,
+				30482D112D59FFC400E27311 /* Main Model.swift in Sources */,
+				30A37C152D59FF590038AAEE /* Calculations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306E62B62D513B9F0069B99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306E62B22D513B9F0069B99E /* Intake+ Watch App */;
+			targetProxy = 306E62B52D513B9F0069B99E /* PBXContainerItemProxy */;
+		};
+		306E62C72D513BA10069B99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306E62B22D513B9F0069B99E /* Intake+ Watch App */;
+			targetProxy = 306E62C62D513BA10069B99E /* PBXContainerItemProxy */;
+		};
+		306E62D12D513BA10069B99E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306E62B22D513B9F0069B99E /* Intake+ Watch App */;
+			targetProxy = 306E62D02D513BA10069B99E /* PBXContainerItemProxy */;
+		};
+		30D1E5582D57B2920011B737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30D1E5482D57B2910011B737 /* Intake+ WidgetExtension */;
+			targetProxy = 30D1E5572D57B2920011B737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		306E62D72D513BA10069B99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		306E62D82D513BA10069B99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		306E62DA2D513BA10069B99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Intake+ Watch App/Intake+ Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intake+ Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intake+";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		306E62DB2D513BA10069B99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Intake+ Watch App/Intake+ Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intake+ Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intake+";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		306E62DE2D513BA10069B99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intake+";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		306E62DF2D513BA10069B99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Intake+";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306E62E12D513BA10069B99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake--Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intake+ Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intake+ Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		306E62E22D513BA10069B99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake--Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intake+ Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intake+ Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		306E62E42D513BA10069B99E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake--Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Intake+ Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		306E62E52D513BA10069B99E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake--Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Intake+ Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		30D1E55B2D57B2920011B737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Intake+ WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Intake+\\ Watch\\ App/Model/Calculations.swift";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intake+ Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Intake+ Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake-.watchkitapp.Intake--Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		30D1E55C2D57B2920011B737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Intake+ WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Intake+\\ Watch\\ App/Model/Calculations.swift";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intake+ Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Intake+ Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.southwales.Intake-.watchkitapp.Intake--Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306E62AA2D513B9F0069B99E /* Build configuration list for PBXProject "Intake+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306E62D72D513BA10069B99E /* Debug */,
+				306E62D82D513BA10069B99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306E62D92D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+ Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306E62DA2D513BA10069B99E /* Debug */,
+				306E62DB2D513BA10069B99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306E62DD2D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306E62DE2D513BA10069B99E /* Debug */,
+				306E62DF2D513BA10069B99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306E62E02D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+ Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306E62E12D513BA10069B99E /* Debug */,
+				306E62E22D513BA10069B99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306E62E32D513BA10069B99E /* Build configuration list for PBXNativeTarget "Intake+ Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306E62E42D513BA10069B99E /* Debug */,
+				306E62E52D513BA10069B99E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D1E55D2D57B2920011B737 /* Build configuration list for PBXNativeTarget "Intake+ WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D1E55B2D57B2920011B737 /* Debug */,
+				30D1E55C2D57B2920011B737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306E62A72D513B9F0069B99E /* Project object */;
+}
